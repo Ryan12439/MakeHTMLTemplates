@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Title Here</title>
+    </head>
+    <body>
+        <h1>Website Title Here</h1>
+        <p>Paragraph Here</p>
+    </body>
+</html>
