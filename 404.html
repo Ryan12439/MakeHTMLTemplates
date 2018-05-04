@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="refresh" content="3; url=javascript://history.go(-1)" />
         <title>Redirecting</title>
     </head>
     <body>
-        <p>Uh-Oh! We couldn't find this page! We are redirecting you now!</p>
+        <p>Uh-Oh! We couldn't find this page! We are redirecting you now!</p><button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
     </body>
 </html>
